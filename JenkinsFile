@@ -21,7 +21,7 @@ stream: 'PLAY'
   {
 ispwOperation connectionId: '9079999f-ab78-4047-8366-00eb8aa4f173',
 consoleLogResponseBody: true,
-credentialsId: 'your-credential-id.1conn',
+credentialsId: '14c2cd95-5a8f-47be-b7cd-63741a5b59df',
 ispwAction: 'BuildAssignment',
 ispwRequestBody: '''buildautomatically = true
 '''
