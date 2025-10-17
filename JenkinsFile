@@ -25,7 +25,7 @@ ispwOperation connectionId: 'zdt3-connection',
 consoleLogResponseBody: true,
 credentialsId: '14c2cd95-5a8f-47be-b7cd-63741a5b59df',
 ispwAction: 'BuildAssignment',
-ispwRequestBody: '''buildautomatically = true
+ispwRequestBody: '''buildautomatically = false
 '''
   }
 }
