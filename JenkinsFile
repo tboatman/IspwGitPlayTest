@@ -9,7 +9,7 @@ node {
   {
 gitToIspwIntegration app: 'PLAY',
 branchMapping: '''*Play* => DEV2, per-branch''',
-connectionId: 'zdt3-connectionn',
+connectionId: 'zdt3-connection',
 credentialsId: '14c2cd95-5a8f-47be-b7cd-63741a5b59df',
 gitCredentialsId: 'github',
 gitRepoUrl: 'https://github.com/tboatman/ispwgitplaytest.git',
@@ -21,7 +21,7 @@ subAppl: 'PLAY'
 
   stage('Build ISPW assignment')
   {
-ispwOperation connectionId: '9079999f-ab78-4047-8366-00eb8aa4f173',
+ispwOperation connectionId: 'zdt3-connection',
 consoleLogResponseBody: true,
 credentialsId: '14c2cd95-5a8f-47be-b7cd-63741a5b59df',
 ispwAction: 'BuildAssignment',
