@@ -13,7 +13,7 @@ connectionId: '9079999f-ab78-4047-8366-00eb8aa4f173',
 credentialsId: 'ce986ae7-1b4d-4f0d-8f9b-a0b022182124',
 gitCredentialsId: 'github',
 gitRepoUrl: ''https://github.com/tboatman/ispwgitplaytest.git',
-runtimeConfig: 'TPZP',
+runtimeConfig: 'ISPP',
 stream: 'PLAY'
   }
 
